@@ -1,0 +1,26 @@
+package unittesting;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+public class JunitTestClass 
+{
+	@Before
+	public void beforeClassBegins()
+	{
+		System.out.println("This method will be execute before beggining of classes");
+	}
+	@Test
+	public void test1()
+	{
+		System.out.println("This is my test1");
+	}
+	
+	@Test
+	public void test2()
+	{
+		System.out.println("This is my test2");
+	}
+	
+}

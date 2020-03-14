@@ -1,0 +1,6 @@
+package unittesting;
+
+public interface PerformanceTest 
+{
+
+}

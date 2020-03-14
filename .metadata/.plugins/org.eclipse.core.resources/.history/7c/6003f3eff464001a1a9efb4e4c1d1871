@@ -1,0 +1,6 @@
+package categoryexample;
+
+public interface RegressionTest 
+{
+
+}

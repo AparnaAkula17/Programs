@@ -1,0 +1,20 @@
+package unittesting;
+
+import org.junit.jupiter.api.Test;
+
+public class JunitTestClass 
+{
+	@Test
+	public void test1() 
+	{
+		// TODO Auto-generated method stub
+		System.out.println("This is my test1");
+	} 
+	@Test
+	public void test2() 
+	{
+		// TODO Auto-generated method stub
+		System.out.println("This is my test2");
+	}
+
+}

@@ -1,0 +1,12 @@
+127.0.0.1 - - [05/Feb/2020:15:53:26 +0530] "GET / HTTP/1.1" 404 709
+127.0.0.1 - - [05/Feb/2020:15:53:45 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [05/Feb/2020:15:53:46 +0530] "GET /ctswebapps/AServlet HTTP/1.1" 200 71
+0:0:0:0:0:0:0:1 - - [05/Feb/2020:16:26:52 +0530] "GET /ctswebapps/AServlet HTTP/1.1" 200 71
+127.0.0.1 - - [05/Feb/2020:16:52:56 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [05/Feb/2020:16:52:56 +0530] "GET /webproject/HelloWorld HTTP/1.1" 200 61
+127.0.0.1 - - [05/Feb/2020:16:55:08 +0530] "GET /webproject/HelloWorld HTTP/1.1" 200 61
+127.0.0.1 - - [05/Feb/2020:17:32:12 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [05/Feb/2020:17:32:13 +0530] "GET /webproject/LoginServlet HTTP/1.1" 500 14
+0:0:0:0:0:0:0:1 - - [05/Feb/2020:17:32:40 +0530] "GET /webproject/index.html HTTP/1.1" 200 368
+0:0:0:0:0:0:0:1 - - [05/Feb/2020:17:32:47 +0530] "GET /webproject/LoginServlet?login=admin&passwd=1234 HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [05/Feb/2020:17:33:00 +0530] "GET /webproject/LoginServlet?login=qq&passwd=qq HTTP/1.1" 200 58

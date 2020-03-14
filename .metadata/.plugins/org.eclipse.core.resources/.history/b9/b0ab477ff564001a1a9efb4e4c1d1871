@@ -1,0 +1,15 @@
+package categoryexample;
+
+import org.junit.experimental.categories.Categories;
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+
+@RunWith(Categories.class)
+@Categories.IncludeCategory(RegressionTest.class)
+//@Categories.ExcludeCategory(RegressionTest.class)
+@Suite.SuiteClasses({FunTest.class,FunTest1.class})
+
+public class CategoryTestSuite 
+{
+
+}

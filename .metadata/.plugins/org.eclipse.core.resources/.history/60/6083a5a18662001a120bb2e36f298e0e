@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String abc="abc";
+		String bed="bed";
+		String combo="abcBED";
+		System.out.println(abc+bed.equalsIgnoreCase(combo));
+	}
+
+}

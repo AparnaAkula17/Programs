@@ -1,0 +1,22 @@
+INDEX VERSION 1.4+D:\cts training\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2159735149.index
+574532621.index
+995298387.index
+2994276788.index
+1512973250.index
+2067423790.index
+3624772225.index
+3537393940.index
+3308043713.index
+527597238.index
+3581163120.index
+6391510.index
+4145529255.index
+4089552748.index
+4273988009.index
+992579964.index
+977432340.index
+2981559502.index
+2609921979.index
+1545989243.index
+255832305.index

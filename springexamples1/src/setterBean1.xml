@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   
+   <bean  id="address" class="springexamples1.Address">
+  		<property name="dno">
+  			<value> 26/377 </value></property>
+  		<property name="street">
+  			<value> Gachibowli </value></property>
+  		<property name="city">
+  			<value> Hyderabad </value></property>
+  </bean>
+  
+  <bean id="setperson" class="springexamples1.Person1"   autowire="byName">
+  		<property name="id">
+  			<value>844359</value></property>
+  		<property name="name">
+  			<value> Appu </value></property>
+  		<!-- <property name="Address" ref="address1" />  -->
+  		
+  </bean>
+</beans>

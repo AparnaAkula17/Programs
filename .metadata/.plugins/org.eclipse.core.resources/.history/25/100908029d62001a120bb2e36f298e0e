@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String x="abc";
+		String y="bed";
+		x.concat(y);
+		System.out.println(x);
+	}
+
+}

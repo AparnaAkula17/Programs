@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   
+   <bean id="que" class="exam.Mapping">
+   		<constructor-arg value="1 "/>
+   		<constructor-arg value="What is the full form of JDBC?"/>
+   		<constructor-arg>
+   		<map>
+   			<entry key="JDBC stands for Java DataBase Connectivity.    " value="A1"></entry>
+   			<entry key="JDBC is a Java API to connect and execute the query with the database.     " value="A2"></entry>
+   		</map>
+   		</constructor-arg>
+   </bean>
+</beans>

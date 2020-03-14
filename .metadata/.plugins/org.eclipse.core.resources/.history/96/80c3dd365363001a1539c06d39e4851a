@@ -1,0 +1,10 @@
+package unittesting;
+
+
+@RunWith(Suite.class)
+
+
+
+public class JunitTestSuite {
+
+}

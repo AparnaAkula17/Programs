@@ -1,0 +1,32 @@
+package unittesting;
+
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+public class JunitTestClass 
+{
+	@BeforeEach
+	public void preMethod()
+	{
+		System.out.println("this will be exceuted first");
+	}
+	   
+	@Test
+	public void test1()
+	{
+		System.out.println("this is my test1");
+	
+	}
+	@Test
+	public void test2()
+	{
+		System.out.println("this is my test2");
+	}
+	@AfterEach
+	public void postMethod()
+	{
+		System.out.println("this will execute after");
+	}
+
+}
